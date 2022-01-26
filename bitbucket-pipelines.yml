@@ -3,5 +3,7 @@ clone:
 pipelines:
   default:
     - step:
+      name:Manual Step
+      trigger: manual
         script:
           - git push --mirror git@github.com:jwtnewbie/bit2github.git
